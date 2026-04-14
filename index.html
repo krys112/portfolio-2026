@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#home"
+            ><h1 class="logo">
+              <span class="holo">Krys</span>tian Jakobczyk
+            </h1></a
+          >
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+      <!-- <canvas id="autumn-leaves-canvas"></canvas> -->
+      <!-- <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+        <div class="snowflake">
+          <div class="inner">❅</div>
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="home-content">
+          <div class="home-text">
+            <h1 class="home-title">
+              Hey there, I'm <span class="highlight">Krys</span>
+            </h1>
+            <p class="home-description">
+              I'm a UK-based developer who deeply enjoys problem solving and
+              expanding my skillset. I'm actively looking for new opportunities.
+              Currently working a lot with low-code automations (n8n) and AI RAG
+              systems.
+            </p>
+            <div class="home-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+          </div>
+          <!-- <div class="home-image">
+            <img
+              src="assets/krys.png?height=400&width=400"
+              alt="Your Name"
+              class="profile-image"
+            />
+          </div>
+          <div class="bouncy-ball"></div> -->
+          <div class="scene">
+            <div class="ball"></div>
+            <img
+              src="assets/krys.png?height=400&width=400"
+              alt="Your Name"
+              class="person"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-description">
+              I'm a 29 years old who graduated from University of Portsmouth
+              with a 2.1 BSc Computer Science diploma in 2017. I've worked in a
+              bakery/coffee shop (Ole & Steen) until 2021 whilst doing part time
+              software/web development. From 2021 onwards I went into full time
+              self employment, mainly working as a contractor for my friend's
+              companies (MTR Trading,
+              <a href="https://www.trademimic.io/">TradeMimic</a>, currently
+              <a href="https://aphexautomate.io">Aphex Automate</a>), mostly as
+              a duo.
+            </p>
+            <p class="about-description">
+              Since then we've worked with many high valued clients,
+              particularly in the lead generation and outbound field. These
+              include Trigify.io, Understory Agency, Flooencer, ColdIQ, QC
+              Growth and workflows.io.
+            </p>
+            <p class="about-description">
+              As for outside of work, I do my best to stay fit (gym/running). I
+              study a bit of Japanese everyday. I enjoy listening to Rest Is
+              Politics podcast to stay at least partially informed with world
+              events. I'm learning to play the guitar. I enjoy travelling to
+              towns around for charity shopping, playing video games, watching
+              TV shows.
+            </p>
+          </div>
+
+          <div class="skills-section">
+            <h3 class="skills-title">Skills & Technologies</h3>
+            <div class="skills-grid">
+              <div class="skill-category">
+                <h4>Coding/Web Development</h4>
+                <div class="skills-list">
+                  <span class="skill">JavaScript</span>
+                  <span class="skill">Python</span>
+                  <span class="skill">HTML5/CSS3</span>
+                  <span class="skill">React</span>
+                  <span class="skill">Node.js</span>
+                  <span class="skill">MongoDB</span>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h4>Tools</h4>
+                <div class="skills-list">
+                  <span class="skill">n8n</span>
+                  <span class="skill">Airtable</span>
+                  <span class="skill">Google Cloud</span>
+                  <span class="skill">Supabase</span>
+                  <span class="skill">Clay</span>
+                  <span class="skill">Notion</span>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h4>API Experience</h4>
+                <div class="skills-list">
+                  <span class="skill">Slack</span>
+                  <span class="skill">Smartlead</span>
+                  <span class="skill">Instantly</span>
+                  <span class="skill">HeyReach</span>
+                  <span class="skill">Stripe</span>
+                  <span class="skill">HubSpot</span>
+                  <span class="skill">Shopify</span>
+                  <span class="skill">Attio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="experience-section">
+            <h3 class="experience-title">Experience</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">2022 - Present</div>
+                <div class="timeline-content">
+                  <h4>Senior Frontend Developer</h4>
+                  <p class="company">Company Name</p>
+                  <p class="job-description">
+                    Led the development of responsive web applications using
+                    React and TypeScript. Collaborated with design teams to
+                    implement pixel-perfect UI components.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2020 - 2022</div>
+                <div class="timeline-content">
+                  <h4>Full Stack Developer</h4>
+                  <p class="company">Another Company</p>
+                  <p class="job-description">
+                    Developed and maintained web applications using Node.js,
+                    Express, and MongoDB. Implemented RESTful APIs and
+                    integrated third-party services.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2018 - 2020</div>
+                <div class="timeline-content">
+                  <h4>Junior Developer</h4>
+                  <p class="company">Startup Company</p>
+                  <p class="job-description">
+                    Started my professional journey building responsive websites
+                    and learning modern development practices. Gained experience
+                    in agile development methodologies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2 class="section-title">Past Projects</h2>
+        <p class="section-subtitle">
+          Here are some examples of projects built for various clients<br />(client
+          data blurred out for confidentiality)
+        </p>
+
+        <div class="projects-grid">
+          <div class="project-card" data-project="project1">
+            <div class="project-image">
+              <img
+                src="./assets/projects/n8n_templates/free-scripts.png"
+                alt="Project 1"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <span class="project-link">View Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">n8n JSON Templates (Aphex Automate)</h3>
+              <p class="project-description">
+                A collection of free n8n workflows accessible from
+                https://aphexautomate.io/free-scripts for various business SOP
+                use cases
+              </p>
+              <div class="project-tags">
+                <span class="tag">n8n</span>
+                <span class="tag">Supabase DB</span>
+                <span class="tag">Airtable</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="project2">
+            <div class="project-image">
+              <img
+                src="./assets/projects/outbound_replies/slack-message-1.png"
+                alt="Project 2"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <span class="project-link">View Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">AI Generated Outreach Replies</h3>
+              <p class="project-description">
+                AI RAG workflow designed to generate replies using past Slack
+                approved replies and client provided documents (ICP, Personas,
+                Value Drivers)
+              </p>
+              <div class="project-tags">
+                <span class="tag">Slack</span>
+                <span class="tag">AI Agent</span>
+                <span class="tag">Vector DB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="project3">
+            <div class="project-image">
+              <img
+                src="./assets/projects/onboarding_flow/kickoff-submission.png"
+                alt="Project 3"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <span class="project-link">View Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Onboarding Workflow</h3>
+              <p class="project-description">
+                A comprehensive flow composed of multiple workflows designed to
+                onboard new clients
+              </p>
+              <div class="project-tags">
+                <span class="tag">GDrive</span>
+                <span class="tag">Notion</span>
+                <span class="tag">Github API</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="project4">
+            <div class="project-image">
+              <img
+                src="./assets/projects/intake_form/form-heading.png"
+                alt="Project 4"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <span class="project-link">View Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Intake Form</h3>
+              <p class="project-description">
+                Website developed using the aid of v0 by Vercel (AI) with the
+                functionality of creating forms using API and allowing teams to
+                collaboratively work on a single form.
+              </p>
+              <div class="project-tags">
+                <span class="tag">ReactJS</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Auth</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="project5">
+            <div class="project-image">
+              <img
+                src="./assets/projects/outbound_report/airtable_interface.png"
+                alt="Project 1"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <span class="project-link">View Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                Outbound Reports and Performance Metrics
+              </h3>
+              <p class="project-description">
+                A series of workflows designed to provide the team with a clear
+                overview of account performance and populating client facing
+                lead lists.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Airtable</span>
+                <span class="tag">Supabase DB</span>
+                <span class="tag">Instantly.ai</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="project-card" data-project="project5">
+            <div class="project-image">
+              <img
+                src="./assets/projects/flooencer_posts/author-posts.png"
+                alt="Project 1"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <span class="project-link">View Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                LinkedIn Post Enrichment (Flooencer)
+              </h3>
+              <p class="project-description">
+                Workflow which enriches a provided post URL, including all
+                commenters/reacters, before pushing to a Google Sheet with
+                formula-driven engagement metrics
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="project-card" data-project="project6">
+            <div class="project-image">
+              <img
+                src="./assets/projects/trademimic_website/trademimic-home.png"
+                alt="Project 5"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <span class="project-link">View Details</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Trademimic.io Website</h3>
+              <p class="project-description">
+                A responsive website personally developed from provided Figma
+                designs using React, node.js and MongoDB.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">node.js</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          I'd love to hear from you. Send me a message and I'll respond as soon
+          as possible.
+        </p>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>biomadkip@hotmail.co.uk</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>07958 387419 | +44 7958 387419</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>London, United Kingdom</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://www.aphexautomate.io" class="social-link"
+                >Aphex Automate</a
+              >
+              <a
+                href="https://www.linkedin.com/in/krys-jakobczyk-3a811826b/"
+                class="social-link"
+                >LinkedIn</a
+              >
+              <a href="https://github.com/krys112" class="social-link"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Krystian Jakobczyk. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-carousel">
+            <div class="modal-carousel-container" id="modal-carousel-container">
+              <!-- Carousel slides will be populated by JavaScript -->
+            </div>
+            <button class="modal-carousel-nav prev" id="modal-carousel-prev">
+              ‹
+            </button>
+            <button class="modal-carousel-nav next" id="modal-carousel-next">
+              ›
+            </button>
+            <div
+              class="modal-carousel-indicators"
+              id="modal-carousel-indicators"
+            >
+              <!-- Indicators will be populated by JavaScript -->
+            </div>
+            <div class="modal-image-counter" id="modal-image-counter">1/1</div>
+          </div>
+          <button class="modal-close" id="modal-close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <h2 id="modal-title" class="modal-title"></h2>
+          <p id="modal-description" class="modal-description"></p>
+
+          <div class="modal-details">
+            <h4>Project Overview</h4>
+            <p id="modal-overview"></p>
+          </div>
+
+          <div class="modal-details">
+            <h4>Key Features</h4>
+            <ul id="modal-features"></ul>
+          </div>
+
+          <div class="modal-tech-stack">
+            <h4>Technologies Used</h4>
+            <div id="modal-tags" class="modal-tags"></div>
+          </div>
+
+          <div class="modal-links" id="modal-links"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
