@@ -60,46 +60,46 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 });
 
 // Contact form handling
-const contactForm = document.getElementById("contact-form");
+// const contactForm = document.getElementById("contact-form");
 
-contactForm.addEventListener("submit", (e) => {
-  e.preventDefault();
+// contactForm.addEventListener("submit", (e) => {
+//   e.preventDefault();
 
-  // Get form data
-  const formData = new FormData(contactForm);
-  const name = formData.get("name");
-  const email = formData.get("email");
-  const subject = formData.get("subject");
-  const message = formData.get("message");
+//   // Get form data
+//   const formData = new FormData(contactForm);
+//   const name = formData.get("name");
+//   const email = formData.get("email");
+//   const subject = formData.get("subject");
+//   const message = formData.get("message");
 
-  // Basic form validation
-  if (!name || !email || !subject || !message) {
-    alert("Please fill in all fields.");
-    return;
-  }
+//   // Basic form validation
+//   if (!name || !email || !subject || !message) {
+//     alert("Please fill in all fields.");
+//     return;
+//   }
 
-  // Email validation
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(email)) {
-    alert("Please enter a valid email address.");
-    return;
-  }
+//   // Email validation
+//   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+//   if (!emailRegex.test(email)) {
+//     alert("Please enter a valid email address.");
+//     return;
+//   }
 
-  // Simulate form submission (replace with actual form handling)
-  const submitButton = contactForm.querySelector('button[type="submit"]');
-  const originalText = submitButton.textContent;
+//   // Simulate form submission (replace with actual form handling)
+//   const submitButton = contactForm.querySelector('button[type="submit"]');
+//   const originalText = submitButton.textContent;
 
-  submitButton.textContent = "Sending...";
-  submitButton.disabled = true;
+//   submitButton.textContent = "Sending...";
+//   submitButton.disabled = true;
 
-  // Simulate API call delay
-  setTimeout(() => {
-    alert("Thank you for your message! I'll get back to you soon.");
-    contactForm.reset();
-    submitButton.textContent = originalText;
-    submitButton.disabled = false;
-  }, 2000);
-});
+//   // Simulate API call delay
+//   setTimeout(() => {
+//     alert("Thank you for your message! I'll get back to you soon.");
+//     contactForm.reset();
+//     submitButton.textContent = originalText;
+//     submitButton.disabled = false;
+//   }, 2000);
+// });
 
 // Intersection Observer for animations
 const observerOptions = {
