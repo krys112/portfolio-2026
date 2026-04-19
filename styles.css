@@ -721,6 +721,10 @@ body {
   transform: scale(1.1);
 }
 
+.modal-close-mobile {
+  margin-top: 1rem;
+}
+
 .modal-body {
   padding: 2rem;
 }
@@ -887,6 +891,7 @@ body {
 
   .modal-link {
     justify-content: center;
+    width: 100%;
   }
 }
 
