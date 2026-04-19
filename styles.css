@@ -890,6 +890,12 @@ body {
   }
 }
 
+@media (min-width: 769px) {
+  .modal-close-mobile {
+    display: none;
+  }
+}
+
 /* About Section */
 .about-content {
   max-width: 1000px;

@@ -251,6 +251,7 @@ if (skillsSection) {
 document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("project-modal");
   const modalClose = document.getElementById("modal-close");
+  const modalCloseMobile = document.getElementById("modal-close-mobile");
   const projectCards = document.querySelectorAll(".project-card");
   const carouselContainer = document.getElementById("modal-carousel-container");
   const carouselPrev = document.getElementById("modal-carousel-prev");
@@ -600,6 +601,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   modalClose.addEventListener("click", closeModal);
+  modalCloseMobile.addEventListener("click", closeModal);
   carouselPrev.addEventListener("click", prevSlide);
   carouselNext.addEventListener("click", nextSlide);
 
