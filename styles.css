@@ -1124,6 +1124,9 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .scene {
+    display: none;
+  }
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -1190,18 +1193,18 @@ body {
   }
 
   .btn {
-    width: 200px;
+    width: 100%;
     text-align: center;
   }
 }
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 15px;
+    padding: 40px 15px;
   }
 
   .section {
-    padding: 60px 0;
+    padding: 10px 0;
   }
 
   .home-title {
